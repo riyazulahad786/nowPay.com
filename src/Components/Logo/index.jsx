@@ -5,7 +5,7 @@ import { LoaderPinwheel } from 'lucide-react';
 function Logo() {
   return (
     <div className="logo">
-      <LoaderPinwheel className="primary logo_icons"/>
+      <LoaderPinwheel size={30} className="primary logo_icons"/>
       <h1>now<span className='primary'>Pay</span></h1>
     </div>
   )
